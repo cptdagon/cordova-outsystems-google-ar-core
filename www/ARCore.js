@@ -4,7 +4,7 @@ function ARCore () {}
 
 ARCore.prototype = {
 
-    open: = function(success, fail) {
+    open: function(success, fail) {
 	exec(success, fail, 'OSARCore', 'open', []);
     },
 };
