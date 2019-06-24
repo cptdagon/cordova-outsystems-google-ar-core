@@ -9,4 +9,4 @@ ARCore.prototype = {
     },
 };
 
-module.exports = new Core;
+module.exports = new ARCore;
